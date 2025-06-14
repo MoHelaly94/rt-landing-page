@@ -84,6 +84,8 @@ hr {
   text-align: center;
 }
 
+a {
+  text-color: black;}
 a: active { 
   text-color: blue;}
 a: hover {
