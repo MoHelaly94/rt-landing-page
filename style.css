@@ -82,7 +82,8 @@ hr {
 }
 
 .activity, .about {
-  text-align: center;
+  text-align: center; margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 a {
@@ -93,10 +94,6 @@ a: hover {
   text-color: black;}
 a: visited {
   text-color: blue;}
-
-.about {
-  margin-bottom: 40px;
-  margin-top: 40px;}
 
 
 /*a*/
