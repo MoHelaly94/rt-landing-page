@@ -72,7 +72,8 @@ hr {
   height: 2px;
   background-color: blue;
   border-color: blue;
-  margin: 40px auto;
+  margin: auto;
+  padding: auto;
 }
 
 .improve {
