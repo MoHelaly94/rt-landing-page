@@ -84,6 +84,14 @@ hr {
   text-align: center;
 }
 
+a: active { 
+  text-color: blue;}
+a: hover {
+  text-color: black;}
+a: visited {
+  text-color: blue;}
+
+
 /*a*/
 a {
   text-decoration: none;
