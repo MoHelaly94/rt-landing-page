@@ -74,7 +74,7 @@ footer {
   font-weight: bold;
 }
 
-.activity, .about, .guide {
+.activity, .about, .guide, .founder {
   text-align: center; margin-bottom: 50px;
   margin-top: 50px; padding: auto;
 }
