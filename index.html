@@ -66,9 +66,18 @@
       <li>Monthly Plan: 500 EGP/month</li>
       <li>Lifetime Access: One-time 4000 EGP payment</li>
     <form style="text-align: center;" action="https://formsubmit.co/Mahmod_elhelaly@hotmail.co.uk" method="POST">
-    <input type="text" placeholder="Your Name" required />
-    <input type="text" placeholder="Your Whatsapp phone" required />
-    <input type="text" placeholder="Your Email" optional />
+      <!-- person’s name -->
+    <input type="text" name="name" placeholder="Your Name" required />
+      
+      <!-- ask for reply-to e-mail so you can hit reply -->
+    <input type="text" name="email" placeholder="Your Whatsapp phone" required />
+
+      <!-- WhatsApp number -->
+    <input type="tel" name="whatsapp" placeholder="Your Email" optional />
+
+      <!-- nicer subject & table template (optional) -->
+      <input type="hidden" name="_subject" value="new enquiry from landing page">
+      <input type="hidden" name="_template" value="table"> <!-- pretty table view -->
     <br />
     <button type="submit">Submit</button>
     </form>
